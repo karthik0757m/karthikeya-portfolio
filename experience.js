@@ -183,7 +183,7 @@
     $('#display-type').textContent=p.type;$('#display-number').textContent='0'+(project+1)+' / 06';
     $('#project-stack').textContent=p.stack;$('#project-title').textContent=p.title;
     $('#project-description').textContent=p.description;
-    $('#project-case').href='projects/'+p.slug+'.html';
+    $('#project-case').href=''+p.slug+'.html';
     $('#project-external').href=p.url;$('#project-external').textContent=p.link;
     $('#demo-action').textContent=p.action;$('#demo-note').textContent=p.note;
     renderDemo();
