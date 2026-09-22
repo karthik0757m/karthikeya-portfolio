@@ -8,13 +8,15 @@ This repository is a ready-to-serve static website. GitHub Pages publishes the r
 
 ## Editing
 - `index.html`: homepage and gallery
-- `style.css`: responsive layout and motion
-- `app.js`: scroll progress, active navigation, gallery filtering and lightbox
+- `experience.css`: homepage layout, responsive styles and motion
+- `experience.js`: spiral gallery, artwork viewer, filters and interactive project displays
+- `designs.js`: full 48-piece artwork collection
+- `style.css` and `app.js`: individual project and information pages
 - Individual project HTML files: case-study pages
 - WebP files: optimized original artwork and portrait
 
 For a local preview, serve this directory with any static web server.
 
-Motion respects reduced-motion preferences. Scrolling uses one animation frame per scroll update, with no idle render loop. The site has no analytics, cookies or background media.
+Motion respects reduced-motion preferences and can be switched off. The spiral renders only while visible and pauses when the tab is hidden or artwork is open. Artwork loads as needed. The site has no analytics, cookies or background media. Interactive engineering visuals are labelled concept illustrations, not live project results.
 
 Portfolio artwork may include third-party brand names, imagery and marks belonging to their respective owners. No blanket reuse licence is granted.
